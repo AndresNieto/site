@@ -22,9 +22,9 @@
                     if($uri=="/site/index.php/27032017ASISEPREPARANDOSCIUDADESPARALAVISITADELPAPA"){
                          notices_action("27032017ASISEPREPARANDOSCIUDADESPARALAVISITADELPAPA");
                         }?> <?php
-                    if($uri=="/site/index.php/27032017ASISEPREPARANDOSCIUDADESPARALAVISITADELPAPA"){
-                         notices_action("27032017ASISEPREPARANDOSCIUDADESPARALAVISITADELPAPA");
-                        }?> <?php
                     if($uri=="/site/index.php/27032017PREPARANDOLAPAGINAWEB"){
                          notices_action("27032017PREPARANDOLAPAGINAWEB");
+                        }?>  <?php
+                    if($uri=="/site/index.php/27032017ARREGLANDOELEDITOR"){
+                         notices_action("27032017ARREGLANDOELEDITOR");
                         }?> 

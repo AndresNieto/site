@@ -151,7 +151,7 @@
                                                 </div>
                                                 <span class="article-category">Papa Francisco</span>
                                                 <h3 class="title">
-                                                    <a href="/site/index.php/"<?php echo $pub[$j]['url'];?>><?php echo $pub[$j]['title'];?></a>
+                                                    <a href="/site/index.php/<?php echo $pub[$j]['url'];?>"><?php echo $pub[$j]['title'];?></a>
                                                 </h3>
                                                 <p><?php echo substr($pub[$j]['body'], 0,300)?></p>
                                             </div>
@@ -179,7 +179,7 @@
                                                 </div>
                                                 <span class="article-category">Papa Francisco</span>
                                                 <h3 class="title">
-                                                    <a href=""><?php echo $pub[$j]['title'];?></a>
+                                                    <a href="/site/index.php/<?php echo $pub[$j]['url'];?>"><?php echo $pub[$j]['title'];?></a>
                                                 </h3>
                                                 <p><?php echo substr($pub[$j]['body'], 0,300)?></p>
                                             </div>
@@ -199,7 +199,7 @@
                                                 </div>
                                                 <span class="article-category">Papa Francisco</span>
                                                 <h3 class="title">
-                                                    <a href=""><?php echo $pub[$j]['title'];?></a>
+                                                    <a href="/site/index.php/<?php echo $pub[$j]['url'];?>"><?php echo $pub[$j]['title'];?></a>
                                                 </h3>
                                                 <p><?php echo substr($pub[$j]['body'], 0,300)?></p>
                                             </div>
@@ -213,7 +213,7 @@
                                                 </div>
                                                 <span class="article-category">Papa Francisco</span>
                                                 <h3 class="title">
-                                                    <a href=""><?php echo $pub[$j]['title'];?></a>
+                                                    <a href="/site/index.php/<?php echo $pub[$j]['url'];?>"><?php echo $pub[$j]['title'];?></a>
                                                 </h3>
                                                 <p><?php echo substr($pub[$j]['body'], 0,300)?></p>
                                             </div>
@@ -227,7 +227,7 @@
                                                 </div>
                                                 <span class="article-category">Papa Francisco</span>
                                                 <h3 class="title">
-                                                    <a href=""><?php echo $pub[$j]['title'];?></a>
+                                                    <a href="/site/index.php/<?php echo $pub[$j]['url'];?>"><?php echo $pub[$j]['title'];?></a>
                                                 </h3>
                                                 <p><?php echo substr($pub[$j]['body'], 0,300)?></p>
                                             </div>
@@ -247,7 +247,7 @@
                                                 </div>
                                                 <span class="article-category">Papa Francisco</span>
                                                 <h3 class="title">
-                                                    <a href=""><?php echo $pub[$j]['title'];?></a>
+                                                    <a href="/site/index.php/<?php echo $pub[$j]['url'];?>"><?php echo $pub[$j]['title'];?></a>
                                                 </h3>
                                                 <p><?php echo substr($pub[$j]['body'], 0,300)?></p>
                                             </div>
@@ -261,7 +261,7 @@
                                                 </div>
                                                 <span class="article-category">Papa Francisco</span>
                                                 <h3 class="title">
-                                                    <a href=""><?php echo $pub[$j]['title'];?></a>
+                                                    <a href="/site/index.php/<?php echo $pub[$j]['url'];?>"><?php echo $pub[$j]['title'];?></a>
                                                 </h3>
                                                 <p><?php echo substr($pub[$j]['body'], 0,300)?></p>
                                             </div>
@@ -275,7 +275,7 @@
                                                 </div>
                                                 <span class="article-category">Papa Francisco</span>
                                                 <h3 class="title">
-                                                    <a href=""><?php echo $pub[$j]['title'];?></a>
+                                                    <a href="/site/index.php/<?php echo $pub[$j]['url'];?>"><?php echo $pub[$j]['title'];?></a>
                                                 </h3>
                                                 <p><?php echo substr($pub[$j]['body'], 0,300)?></p>
                                             </div>
