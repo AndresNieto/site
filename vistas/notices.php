@@ -2,15 +2,20 @@
     <div class="pg-opt">
         <div class="container">
             <div class="row">
-                <div class="col-xs-6">
+                <div class="col-xs-3">
                     <h2>Blog</h2>
                 </div>
-                <div class="col-xs-6">
-                    <ol class="breadcrumb">
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Blog</a></li>
-                        <li class="active">Large grid</li>
-                    </ol>
+                <div class="col-xs-9">
+                    <ul class="breadcrumb">
+
+                        <li><form method="POST" action="../index.php/notices"><input name="tipo" value="Papa Francisco" hidden><button type="submit" class="btn btn-success">Papa Francisco </button></form></li>
+                        <li><form method="POST" action="../index.php/notices"><input name="tipo" value="Voluntariado" hidden><button type="submit" class="btn btn-success">Voluntariado </button></form></li>
+                        <li><form method="POST" action="../index.php/notices"><input name="tipo" value="Logistica" hidden><button type="submit" class="btn btn-success">Logistica </button></form></li>
+                        <li><form method="POST" action="../index.php/notices"><input name="tipo" value="Comision Pastoral" hidden><button type="submit" class="btn btn-success">Comision Pastoral</button></form></li>
+                        <li><form method="POST" action="../index.php/notices"><input name="tipo" value="Comision Liturgica" hidden><button type="submit" class="btn btn-success">Comision Liturgica</button></form></li>
+                        <li><form method="POST" action="../index.php/notices"><input name="tipo" value="Comunicaciones" hidden><button type="submit" class="btn btn-success">Comunicaciones</button></form></li>
+                            
+                    </ul>
                 </div>
             </div>
         </div>

@@ -4,9 +4,10 @@
         <div id="layerslider" style="width:100%;">   
             <div class="ls-slide" data-ls="transition2d:1;timeshift:-1000;">
                 <a href="001 Campaña_Donar un árbol.pdf" type=" img img-responsive"><img src="../images/backgrounds/natura.jpg" class="ls-bg" alt="Slide background" /></a>
+                
             </div>        
             <div class="ls-slide" data-ls="transition2d:1;timeshift:-1000;">
-                <div class="mask mask-1" class="ls-l"></div>
+                <div class="mask mask-1" class="ls-l"><a href="001 Campaña_Donar un árbol.pdf" type=" img img-responsive"></a></div>
                 <img src="../images/backgrounds/papa2.jpg" class="ls-bg" alt="Slide background"/>     
             </div>   
         </div>

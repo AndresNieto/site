@@ -102,7 +102,7 @@
                             <span class="icon-bar"></span>
                         </button>
                         <a class="navbar-brand" href="index.html" title="Boomerang | One template. Infinite solutions">
-                            <img src="../images/Firma.png" alt="" style="padding: 0.1px; ">
+                            <img src="../images/Firma.png" alt="" style="padding: 0.1px; " class="img-responsive">
                         </a>
                     </div>
                     <div class="navbar-collapse collapse">
