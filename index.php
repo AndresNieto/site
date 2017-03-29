@@ -13,6 +13,9 @@
 
     if($uri=="/site/index.php/home"){
      home_action();
+    }
+    if($uri=="/site/index.php/notices"){
+     notices_view_action();
     }     
     
     ?>
@@ -27,4 +30,31 @@
                         }?>  <?php
                     if($uri=="/site/index.php/27032017ARREGLANDOELEDITOR"){
                          notices_action("27032017ARREGLANDOELEDITOR");
+                        }?> <?php
+                    if($uri=="/site/index.php/29032017ASISEPREPARANDOSCIUDADESPARALAVISITADELPAPA"){
+                         notices_action("29032017ASISEPREPARANDOSCIUDADESPARALAVISITADELPAPA");
+                        }?> <?php
+                    if($uri=="/site/index.php/29032017ASISEPREPARANDOSCIUDADESPARALAVISITADELPAPA"){
+                         notices_action("29032017ASISEPREPARANDOSCIUDADESPARALAVISITADELPAPA");
+                        }?> <?php
+                    if($uri=="/site/index.php/29032017ASISEPREPARANDOSCIUDADESPARALAVISITADELPAPA"){
+                         notices_action("29032017ASISEPREPARANDOSCIUDADESPARALAVISITADELPAPA");
+                        }?> <?php
+                    if($uri=="/site/index.php/2017-04-01ASISEPREPARANDOSCIUDADESPARALAVISITADELPAPA"){
+                         notices_action("2017-04-01ASISEPREPARANDOSCIUDADESPARALAVISITADELPAPA");
+                        }?> <?php
+                    if($uri=="/site/index.php/2017-04-01ASISEPREPARANDOSCIUDADESPARALAVISITADELPAPA"){
+                         notices_action("2017-04-01ASISEPREPARANDOSCIUDADESPARALAVISITADELPAPA");
+                        }?> <?php
+                    if($uri=="/site/index.php/2017-04-01ASISEPREPARANDOSCIUDADESPARALAVISITADELPAPA"){
+                         notices_action("2017-04-01ASISEPREPARANDOSCIUDADESPARALAVISITADELPAPA");
+                        }?> <?php
+                    if($uri=="/site/index.php/2017-04-01ASISEPREPARANDOSCIUDADESPARALAVISITADELPAPA"){
+                         notices_action("2017-04-01ASISEPREPARANDOSCIUDADESPARALAVISITADELPAPA");
+                        }?> <?php
+                    if($uri=="/site/index.php/2017-04-01ASISEPREPARANDOSCIUDADESPARALAVISITADELPAPA"){
+                         notices_action("2017-04-01ASISEPREPARANDOSCIUDADESPARALAVISITADELPAPA");
+                        }?> <?php
+                    if($uri=="/site/index.php/2017-03-29Probando"){
+                         notices_action("2017-03-29Probando");
                         }?> 

@@ -110,7 +110,7 @@
                             <li><a href="/site/index.php/home">Inicio</a></li>
                             <li><a href="/site/index.php/builder">La visita</a></li>
                             <li><a href="/site/index.php/builder">Itinerario</a></li>
-                            <li><a href="/site/index.php/builder">Noticias</a></li>
+                            <li><a href="/site/index.php/notices">Noticias</a></li>
                             <li><a href="/site/index.php/builder">Participar</a></li>
                             <li><a href="/site/index.php/builder">Villavicencio</a></li>
                             <li><a href="/site/index.php/builder">Prensa</a></li>

@@ -11,6 +11,10 @@ function notices_action($url){
 	$url1=$url;
 require "vistas/".$url1.".php";
 }
+function notices_view_action(){
+$pub=consult_publication();
+require "vistas/notices.php";
+}
 function login_action(){
 	$login=login();
 require "vistas/login.php";
