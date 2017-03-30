@@ -18,8 +18,8 @@
      notices_view_action();
     }
 
-    $uri = explode("?", $_SERVER['REQUEST_URI']);
-    if($uri[0]=="/site/index.php/type_notices"){
+    $url = explode("?", $_SERVER['REQUEST_URI']);
+    if($url[0]=="/site/index.php/type_notices"){
      type_notices_action();
     }       
     

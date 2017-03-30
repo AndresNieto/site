@@ -54,10 +54,21 @@ function consult_user(){
         cerrar_conexion_db($conexion);
         return $user;
 }
+function consult_slider(){
+        $conexion=conectar_base_de_datos();
+        $consulta="SELECT * FROM slider";
+        $resultado=mysqli_query($conexion,$consulta);
+        $sli=array();
+        while($fila=mysqli_fetch_assoc($resultado)){
+            $sli[]=$fila;
+        }
+        cerrar_conexion_db($conexion);
+        return $sli;
+} 
 
 function consult_publication(){
         $conexion=conectar_base_de_datos();
-        $consulta="SELECT * FROM publicacion";
+        $consulta="SELECT * FROM publicacion  ORDER BY id ASC";        
         $resultado=mysqli_query($conexion,$consulta);
         $pub=array();
         while($fila=mysqli_fetch_assoc($resultado)){

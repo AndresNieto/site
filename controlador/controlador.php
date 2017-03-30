@@ -4,6 +4,7 @@ require "vistas/builder.php";
 }
 function home_action(){
 	$pub=consult_publication();
+	$sli=consult_slider();
 require "vistas/home.php";
 }
 

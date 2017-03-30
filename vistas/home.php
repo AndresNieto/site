@@ -1,19 +1,21 @@
 <?php ob_start() ?>
     <!--Header-->
     <section id="slider-wrapper" class="layer-slider-wrapper layer-slider-dynamic">
-        <div id="layerslider" style="width:100%;">   
-            <div class="ls-slide" data-ls="transition2d:1;timeshift:-1000;">
-                <a href="001 Campaña_Donar un árbol.pdf" type=" img img-responsive"><img src="../images/backgrounds/natura.jpg" class="ls-bg" alt="Slide background" /></a>
-                
-            </div>        
-            <div class="ls-slide" data-ls="transition2d:1;timeshift:-1000;">
-                <div class="mask mask-1" class="ls-l"><a href="001 Campaña_Donar un árbol.pdf" type=" img img-responsive"></a></div>
-                <img src="../images/backgrounds/papa2.jpg" class="ls-bg" alt="Slide background"/>     
-            </div>   
+        <div id="layerslider" style="width:100%;">
+            <?php if(isset($sli)) {
+                foreach($sli as $sli){ ?>  
+            <div class="ls-slide" data-ls="transition2d:1;timeshift:-1000;" >
+                <img src="../images/slider/<?php echo $sli['name_image'];?>" class="ls-bg" alt="Slide background" />
+                <?php if ($sli['url']!="#"){ ?>
+                <a href="<?php echo $sli['url'];?>" class="btn btn-danger btn-lg ls-l" style="top:80%; left:50%;" data-ls="offsetxin:0;offsetyin:250;durationin:1500;delayin:1500;offsetxout:0;offsetyout:-8;easingout:easeInOutQuart;scalexout:1.2;scaleyout:1.2;" target="_blank">Ver más</a> 
+                <?php } ?>
+            </div>
+            <?php }} ?>             
         </div>
     </section>
     <br>
     <!--Access-->
+
     <section class="slice relative bg-white bb animate-hover-slide">
         <div class="wp-section">
             <div class="container">
@@ -27,6 +29,7 @@
                                 <div class="col-md-3">
                                     <div class="wp-block inverse">
                                         <div class="figure">
+
                                             <img alt="" src="../images/externo/voluntario.jpg" class="img-responsive">
                                             <div class="figcaption bg-base"></div>
                                             <div class="figcaption-btn">

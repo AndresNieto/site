@@ -29,72 +29,13 @@
     <!-- MODALS -->
 
     <!-- MOBILE MENU - Option 2 -->
-    <section id="navMobile" class="aside-menu left">
-        <form class="form-horizontal form-search">
-            <div class="input-group">
-                <input type="search" class="form-control" placeholder="Search...">
-                <span class="input-group-btn">
-                    <button id="btnHideMobileNav" class="btn btn-close" type="button" title="Hide sidebar"><i class="fa fa-times"></i></button>
-                </span>
-            </div>
-        </form>
-        <div id="dl-menu" class="dl-menuwrapper">
-            <ul class="dl-menu"></ul>
-        </div>
-    </section> 
-
-    <!-- SLIDEBAR -->
-    <section id="asideMenu" class="aside-menu right">
-        <form class="form-horizontal form-search">
-            <div class="input-group">
-                <input type="search" class="form-control" placeholder="Search..." />
-                <span class="input-group-btn">
-                    <button id="btnHideAsideMenu" class="btn btn-close" type="button" title="Hide sidebar"><i class="fa fa-times"></i></button>
-                </span>
-            </div>
-        </form>
-        
-        <h5 class="side-section-title">Optional sidebar menu</h5>
-        <div class="nav">
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About us</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">Work</a></li>
-                <li><a href="#">Online shop</a></li>
-            </ul>
-        </div>
-        
-        <h5 class="side-section-title">Social media</h5>
-        <div class="social-media">
-            <a href="#"><i class="fa fa-facebook facebook"></i></a>
-            <a href="#"><i class="fa fa-google-plus google"></i></a>
-            <a href="#"><i class="fa fa-twitter twitter"></i></a>
-        </div>
-        
-        <h5 class="side-section-title">Contact information</h5>
-        <div class="contact-info">
-            <h5>Address</h5>
-            <p>5th Avenue, New York - United States</p>
-            
-            <h5>Email</h5>
-            <p>hello@webpixels.ro</p>
-            
-            <h5>Phone</h5>
-            <p>+10 724 1234 567</p>
-        </div>
-    </section>
-
-  
+    
     <div id="divHeaderWrapper">
         <header class="header-standard-2"> 
 
             <div class="navbar navbar-fixed navbar-wp navbar-base navbar-arrow mega-nav" data-spy="affix" data-offset-top="563" role="navigation" >
                 <div class="container">
-                    <div class="navbar-header">
-                        <button type="button" class="navbar-toggle navbar-toggle-aside-menu">
-                            <i class="fa fa-outdent icon-custom"></i>
-                        </button>
+                    <div class="navbar-header">                        
                         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                             <span class="sr-only">Toggle navigation</span>
                             <span class="icon-bar"></span>
@@ -114,12 +55,6 @@
                             <li><a href="/site/index.php/builder">Participar</a></li>
                             <li><a href="/site/index.php/builder">Villavicencio</a></li>
                             <li><a href="/site/index.php/builder">Prensa</a></li>
-                            
-                            <li class="hidden-xs">
-                                <a href="#" id="cmdAsideMenu" class="dropdown-toggle dropdown-form-toggle" title="Open sidebar">
-                                    <i class="fa fa-outdent"></i>
-                                </a>
-                            </li>
                         </ul>
                        
                     </div><!--/.nav-collapse -->
