@@ -15,6 +15,10 @@ function notices_view_action(){
 $pub=consult_publication();
 require "vistas/notices.php";
 }
+function type_notices_action(){
+$pub=consult_type_publication();
+require "vistas/notices.php";
+}
 function login_action(){
 	$login=login();
 require "vistas/login.php";

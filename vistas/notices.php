@@ -3,17 +3,18 @@
         <div class="container">
             <div class="row">
                 <div class="col-xs-3">
-                    <h2>Blog</h2>
+                    <h2>Categorias</h2>
                 </div>
-                <div class="col-xs-9">
+                <div class="col-xs-9">                    
                     <ul class="breadcrumb">
 
-                        <li><form method="POST" action="../index.php/notices"><input name="tipo" value="Papa Francisco" hidden><button type="submit" class="btn btn-success">Papa Francisco </button></form></li>
-                        <li><form method="POST" action="../index.php/notices"><input name="tipo" value="Voluntariado" hidden><button type="submit" class="btn btn-success">Voluntariado </button></form></li>
-                        <li><form method="POST" action="../index.php/notices"><input name="tipo" value="Logistica" hidden><button type="submit" class="btn btn-success">Logistica </button></form></li>
-                        <li><form method="POST" action="../index.php/notices"><input name="tipo" value="Comision Pastoral" hidden><button type="submit" class="btn btn-success">Comision Pastoral</button></form></li>
-                        <li><form method="POST" action="../index.php/notices"><input name="tipo" value="Comision Liturgica" hidden><button type="submit" class="btn btn-success">Comision Liturgica</button></form></li>
-                        <li><form method="POST" action="../index.php/notices"><input name="tipo" value="Comunicaciones" hidden><button type="submit" class="btn btn-success">Comunicaciones</button></form></li>
+                        <li><a href="../index.php/type_notices?type=Papa Francisco">Papa Francisco</a></li>
+                        <li><a href="../index.php/type_notices?type=Voluntariado">Voluntariado</a></li>
+                        <li><a href="../index.php/type_notices?type=Logistica">Logistica</a></li>
+                        <li><a href="../index.php/type_notices?type=Comision Pastoral">Comision Pastoral</a></li>
+                        <li><a href="../index.php/type_notices?type=Comision Liturgica">Comision Liturgica</a></li>
+                        <li><a href="../index.php/type_notices?type=Comunicaciones">Comunicaciones</a></li>
+                        
                             
                     </ul>
                 </div>

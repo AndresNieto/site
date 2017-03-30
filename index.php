@@ -16,7 +16,12 @@
     }
     if($uri=="/site/index.php/notices"){
      notices_view_action();
-    }     
+    }
+
+    $uri = explode("?", $_SERVER['REQUEST_URI']);
+    if($uri[0]=="/site/index.php/type_notices"){
+     type_notices_action();
+    }       
     
     ?>
 
@@ -57,4 +62,7 @@
                         }?> <?php
                     if($uri=="/site/index.php/2017-03-29Probando"){
                          notices_action("2017-03-29Probando");
-                        }?> 
+                        }?> <?php
+                            if($uri=="/site/index.php/2017-03-29PreparandolaPáginaWeb"){
+                                 notices_action("2017-03-29PreparandolaPáginaWeb");
+                                }?> 

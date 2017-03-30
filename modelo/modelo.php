@@ -66,6 +66,18 @@ function consult_publication(){
         cerrar_conexion_db($conexion);
         return $pub ;
 }
+function consult_type_publication(){
+        $type=$_GET["type"]; 
+        $conexion=conectar_base_de_datos();
+        $consulta="SELECT * FROM publicacion where categoria='$type'";
+        $resultado=mysqli_query($conexion,$consulta);
+        $pub=array();
+        while($fila=mysqli_fetch_assoc($resultado)){
+            $pub[]=$fila;
+        }
+        cerrar_conexion_db($conexion);
+        return $pub ;
+}
 function consult_body_publication(){
         $conexion=conectar_base_de_datos();       
         $conexion=conectar_base_de_datos();
