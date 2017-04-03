@@ -5,7 +5,10 @@ require "vistas/builder.php";
 function home_action(){
 	$pub=consult_publication();
 	$sli=consult_slider();
-require "vistas/podcast.php";
+require "vistas/home.php";
+}
+function campaña1_action(){
+	require "vistas/naturaleza.php";
 }
 
 function notices_action($url){

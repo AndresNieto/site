@@ -17,6 +17,9 @@
     if($uri=="/site/index.php/notices"){
      notices_view_action();
     }
+    if($uri=="/site/index.php/02042017reconciliemonosconlanaturaleza"){
+     campaña1_action();
+    }
 
     $url = explode("?", $_SERVER['REQUEST_URI']);
     if($url[0]=="/site/index.php/type_notices"){

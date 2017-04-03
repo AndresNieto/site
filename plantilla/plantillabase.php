@@ -50,7 +50,17 @@
                         <ul class="nav navbar-nav navbar-right">
                             <li><a href="/site/index.php/home">Inicio</a></li>
                             <li><a href="/site/index.php/builder">La visita</a></li>
-                            <li><a href="/site/index.php/builder">Itinerario</a></li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Itinerario</a>
+                                <ul class="dropdown-menu">
+                                    <li class="dropdown-submenu">
+                                        <a tabindex="-1" href="#">Campañas</a>
+                                        <ul class="dropdown-menu">
+                                            <li><a tabindex="" href="/site/index.php/02042017reconciliemonosconlanaturaleza">Reconciliemonos con la Natura..  </a></li>                                           
+                                        </ul>
+                                    </li>                                   
+                                </ul>
+                            </li>                                
                             <li><a href="/site/index.php/notices">Noticias</a></li>
                             <li><a href="/site/index.php/builder">Participar</a></li>
                             <li><a href="/site/index.php/builder">Villavicencio</a></li>
