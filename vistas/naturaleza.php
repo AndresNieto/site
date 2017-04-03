@@ -62,7 +62,8 @@
                             <p>Otra opción, será una franja de 50 metros de ancho y que cobija cerca de tres hectáreas, ubicada al respaldo de la urbanización San Antonio y que también colinda con el parque Las Malocas.</p>
                         </li>
                     </ul>     
-                </div><br>                
+                </div><br>  
+                <img src="../images/campañas/Infografía1.jpg" width="100%">              
                 <div class="col-md-6">
                 	<div class="wp-block hero light">
 					    <div class="thmb-img">
