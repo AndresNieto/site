@@ -64,7 +64,12 @@
                             <li><a href="/site/index.php/notices">Noticias</a></li>
                             <li><a href="/site/index.php/builder">Participar</a></li>
                             <li><a href="/site/index.php/builder">Villavicencio</a></li>
-                            <li><a href="/site/index.php/builder">Prensa</a></li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Prensa</a>
+                                <ul class="dropdown-menu">
+                                    <li><a tabindex="" href="/site/index.php/podcast">Podcast</a></li>                                           
+                                </ul>
+                            </li> 
                         </ul>
                        
                     </div><!--/.nav-collapse -->
@@ -206,6 +211,5 @@
 <script>
 !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
 </script>
-
 </body>
 </html>

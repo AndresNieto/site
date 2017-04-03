@@ -15,9 +15,7 @@
     </section>
     <br>
     <!--Access-->
-    <iframe id='audio_17890928' frameborder='0' allowfullscreen='' scrolling='no' height='200' style='border:1px solid #EEE; box-sizing:border-box; width:100%;' src="https://co.ivoox.com/es/player_ej_17890928_4_1.html?c1=ff6600"></iframe>
-    <iframe width="100%" height="200" frameborder="0" allowfullscreen="" scrolling="no" src="https://co.ivoox.com/es/player_ej_17890928_2_1.html?data=kpylm5Wddpmhhpywj5WZaZS1lpiah5yncZOhhpywj5WRaZi3jpWah5yncaPjzcrhh6iXaaK4z5DRx9LTt4zZzZDd1M7RqdOf0cbg0ZCJdpSkkpKSmaiRsNbsxcrWk5eadI6ZmKialg..&"></iframe>
-    <iframe width="238" height="48" frameborder="0" allowfullscreen="" scrolling="no" src="https://co.ivoox.com/es/player_ek_17890928_2_1.html?data=kpylm5Wddpmhhpywj5WZaZS1lpiah5yncZOhhpywj5WRaZi3jpWah5yncaPjzcrhh6iXaaK4z5DRx9LTt4zZzZDd1M7RqdOf0cbg0ZCJdpSkkpKSmaiRsNbsxcrWk5eadI6ZmKialg..&"></iframe>
+    
     <section class="slice relative bg-white bb animate-hover-slide">
         <div class="wp-section">
             <div class="container">
@@ -35,8 +33,7 @@
                                             <img alt="" src="../images/externo/voluntario.jpg" class="img-responsive">
                                             <div class="figcaption bg-base"></div>
                                             <div class="figcaption-btn">
-                                                <a href="../images/externo/voluntario.jpg" class="btn btn-xs btn-b-white theater"><i class="fa fa-plus-circle"></i> Zoom</a>
-                                                <a href="#" class="btn btn-xs btn-b-white"><i class="fa fa-link"></i> View</a>
+                                                <a href="#" class="btn btn-xs btn-b-white theater"><i class="fa fa-plus-circle"></i>Ver más</a>                                               
                                             </div>
                                         </div>                                       
                                     </div>
@@ -47,8 +44,7 @@
                                             <img alt="" src="../images/externo/campaña.jpg" class="img-responsive">
                                             <div class="figcaption bg-base"></div>
                                             <div class="figcaption-btn">
-                                                <a href="../images/externo/campaña.jpg" class="btn btn-xs btn-b-white theater"><i class="fa fa-plus-circle"></i> Zoom</a>
-                                                <a href="#" class="btn btn-xs btn-b-white"><i class="fa fa-link"></i> View</a>
+                                                <a href="/site/index.php/02042017reconciliemonosconlanaturaleza" class="btn btn-xs btn-b-white theater"><i class="fa fa-plus-circle"></i>Ver más</a>
                                             </div>
                                         </div>
                                     </div>
@@ -59,8 +55,7 @@
                                             <img alt="" src="../images/externo/itinerario.jpg" class="img-responsive">
                                             <div class="figcaption bg-base"></div>
                                             <div class="figcaption-btn">
-                                                <a href="../images/externo/itinerario.jpg" class="btn btn-xs btn-b-white theater"><i class="fa fa-plus-circle"></i> Zoom</a>
-                                                <a href="#" class="btn btn-xs btn-b-white"><i class="fa fa-link"></i> View</a>
+                                                <a href="#" class="btn btn-xs btn-b-white theater"><i class="fa fa-plus-circle"></i>Ver más</a>   
                                             </div>
                                         </div>
                                     </div>
@@ -71,8 +66,7 @@
                                             <img alt="" src="../images/externo/prensa.jpg" class="img-responsive">
                                             <div class="figcaption bg-base"></div>
                                             <div class="figcaption-btn">
-                                                <a href="../images/externo/prensa.jpg" class="btn btn-xs btn-b-white theater"><i class="fa fa-plus-circle"></i> Zoom</a>
-                                                <a href="#" class="btn btn-xs btn-b-white"><i class="fa fa-link"></i> View</a>
+                                               <a href="#" class="btn btn-xs btn-b-white theater"><i class="fa fa-plus-circle"></i>Ver más</a>   
                                             </div>
                                         </div>                                        
                                     </div>

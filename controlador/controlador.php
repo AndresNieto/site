@@ -10,6 +10,9 @@ require "vistas/home.php";
 function campaña1_action(){
 	require "vistas/naturaleza.php";
 }
+function podcast_action(){
+	require "vistas/podcast.php";
+}
 
 function notices_action($url){
 	$url1=$url;
