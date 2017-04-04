@@ -20,6 +20,9 @@
     if($uri=="/site/index.php/podcast"){
      podcast_action();
     }
+    if($uri=="/site/index.php/galeria"){
+     galery_action();
+    }
     if($uri=="/site/index.php/02042017reconciliemonosconlanaturaleza"){
      campaña1_action();
     }

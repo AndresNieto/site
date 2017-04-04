@@ -15,7 +15,9 @@
     <link rel="stylesheet" href="../assets/sky-forms/css/sky-forms.css">   
     <script src="../js/jquery.js"></script>
     <script src="../js/jquery-ui.min.js"></script>
+
     <link rel="stylesheet" href="../assets/layerslider/css/layerslider.css" type="text/css">
+
     <div id="fb-root"></div>
 <script>(function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0];
@@ -67,7 +69,8 @@
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Prensa</a>
                                 <ul class="dropdown-menu">
-                                    <li><a tabindex="" href="/site/index.php/podcast">Podcast</a></li>                                           
+                                    <li><a tabindex="" href="/site/index.php/podcast">Podcast</a></li> 
+                                    <li><a tabindex="" href="/site/index.php/galeria">Galeria</a></li>                                           
                                 </ul>
                             </li> 
                         </ul>
@@ -197,7 +200,7 @@
 <script src="../js/jquery.cookie.js"></script>
 <script src="../js/wp.switcher.js"></script>
 <script type="text/javascript" src="../js/wp.ga.js"></script>
-
+<script src="../js/wp.app.js"></script>
 <script type="text/javascript" src="../js/jquery.downCount.js"></script>
 
     <script class="source" type="text/javascript">

@@ -66,6 +66,29 @@ function consult_slider(){
         return $sli;
 } 
 
+function consult_album(){
+        $conexion=conectar_base_de_datos();
+        $consulta="SELECT * FROM album";
+        $resultado=mysqli_query($conexion,$consulta);
+        $gal=array();
+        while($fila=mysqli_fetch_assoc($resultado)){
+            $gal[]=$fila;
+        }
+        cerrar_conexion_db($conexion);
+        return $gal;
+}
+function consult_galery(){
+        $conexion=conectar_base_de_datos();
+        $consulta="SELECT * FROM album, image where album.title=image.album";
+        $resultado=mysqli_query($conexion,$consulta);
+        $gal=array();
+        while($fila=mysqli_fetch_assoc($resultado)){
+            $gal[]=$fila;
+        }
+        cerrar_conexion_db($conexion);
+        return $gal;
+}  
+
 function consult_publication(){
         $conexion=conectar_base_de_datos();
         $consulta="SELECT * FROM publicacion  ORDER BY id ASC";        

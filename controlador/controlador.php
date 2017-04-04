@@ -13,6 +13,12 @@ function campaña1_action(){
 function podcast_action(){
 	require "vistas/podcast.php";
 }
+function galery_action(){
+	$alb=consult_album();
+	$alb1=consult_album();
+	$gal=consult_galery();
+	require "vistas/galery.php";
+}
 
 function notices_action($url){
 	$url1=$url;
